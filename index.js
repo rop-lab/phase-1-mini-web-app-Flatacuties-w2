@@ -34,7 +34,7 @@ function renderAnimals(urlObj){
     rendertotalVotes.textContent=urlObj.votes;
     objGlobal=urlObj
     additionForm.addEventListener("submit", (e)=>{
-        e.preventDefault()
+        e.preventDefault
         objGlobal.votes +=parseInt(voteInput.value)
         rendertotalVotes.textContent=objGlobal.votes
         
